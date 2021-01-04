@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio éco astuce </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+     <section class="top-page">
+        <header class="header">
+            <img src="image/Bio eco asctuce.png" alt="Logo du site ">
+            <nav class="nav">
+                <li>Accueil</li>
+                <li>Nos produits </li>
+                <li>Nos astuces</li>
+            </nav>
+        </header>
+       
+        <div class="landing-page">
+            <h1 class="big-title">Bio éco astuce,engageons-nous pour un avenir durable. </h1>
+        <a class="scroll-down" href=""> Scroll <i class="fas fa-angle-down"></i></a>
+        </div>
+
+    <div class="cursor"></div>
+
+
+    </section>
+<section class="services">
+    <div class="service-item"> 
+        <i class="fas fa-store delivery-icon"></i>
+        <p class="service-détails">les points de rélais </p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-people-carry delivery-icon"></i>
+            <p class="service-détails"> objet donné = objet récupéré</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-truck delivery-icon"></i>
+            <p class="service-détails">livraison</p>
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="bests-items"></section>
+<h2 class="section-title">Nos meilleures ventes
+ </h2>
+<div class="best-plans">
+ <a  class=" plans-box plan1 no-grid">
+     <div class="plan-détails">
+        <p class="plan-name">Baume à lèvre à la vaseline </p>
+         <p class="plan-price">9,99€</p>
+     </div>
+ </a>
+ <a  class=" plans-box plan2 no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Dentifrice Bio à la noix de coco </p>
+        <p class="plan-price">12,99€</p>
+    </div>
+ </a>
+ <a  class=" plans-box plan4 no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Sac en tissu récupéré</p>
+        <p class="plan-price">6,99€</p>
+    </div>
+     
+   
+ </a>
+ <a  class=" plans-box plan3 no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Tête de lit en bois recyclé</p>
+        <p class="plan-price">200€</p>
+    </div>
+
+ </a>
+ </div>
+</section>
+
+
+
+<section class="bests-items"></section>
+<h2 class="section-title">Nos astuces Bio éco</h2>
+<div class="best-plans">
+ <a  href="tutorielEntretienMaison.html" class=" plans-box maisonImg no-grid">
+     <div class="plan-détails">
+        <p class="plan-name">Produits entretien de la maison </p>
+        <p>en savoir plus </p>
+     </div>
+ </a>
+ <a href="tutorielEntretienMaison.html" class=" plans-box beauteImg no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Produits de beauté </p>
+       <p>en savoir plus </p>
+    </div>
+ </a>
+ <a href="html3.html" class=" plans-box recyclageImg no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Objets recylés</p>
+        <p>en savoir plus </p>
+    </div>
+ </a>
+ <a href="html3.html"  class=" plans-box mainImg no-grid">
+    <div class="plan-détails">
+        <p class="plan-name">Objet récupéré</p>
+        <p>en savoir plus</p>
+       
+    </div>
+ </a>
+</section>
+
+<script>
+    let mousCursor = document.querySelector(".cursor");
+window.addEventListener('mousemove',cursor);
+function cursor(e){
+    mousCursor.style.top= e.pageY +'px';
+    mousCursor.style.left= e.pageX +'px';
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

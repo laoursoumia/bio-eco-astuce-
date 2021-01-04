@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+    font-family: Montserrat;
+
+}
+body {
+    margin:0 auto;
+}
+
+/*tete de page*/
+header.header {
+    display:flex;
+    align-items: center;
+    background-color: rgb(214, 213, 212);
+}
+
+header.header img{
+    width: 150px;
+
+}
+section.top-page{
+    background: url('../image/2.png');
+    background-size: cover;
+    height:110vh;
+    padding: 15px;
+  }
+  
+  /*page de bienvenue (landing page) */
+  .landing-page{
+      padding: 20px 50px;
+    
+   -click{
+       color:black;
+   }   
+  }
+ .big-title{
+     color: white;
+     font-size: 80px;
+     font: weight 80;
+    
+
+ }
+ 
+ .scroll-down{
+     color: rgb(49, 59, 29);
+     position: absolute;
+     bottom: 30px;
+ }
+ 
+ /*menu de navigation */
+
+ nav.nav{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     width: 400px;
+     margin-left: 40px;
+    
+ }
+ nav.nav li{
+     color: rgb(16, 146, 59);
+    }
+    .cursor 
+    {
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        position: absolute;
+        z-index: 1;
+        border: 1px solid rgb(59, 153, 67);
+        transition-duration:100ms;
+        transition-timing-function: ease-out;
+        animation: cursorTap 0.5s infinite alternate;
+        backdrop-filter:brightness(100%) blur(4px);
+    }
+/*services*/
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px; }
+   
+
+
+
+.service-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(84, 116, 21);
+}
+
+    
+}
+.delivery-icon{
+    font: size 100px;
+    width:200px
+    color: rgb(84, 116, 21);
+  
+}
+
+.service-détails{
+    font: weight 50;
+    width: 100x;
+    text-align: center;
+    color: rgb(17, 19, 10);
+}
+/*best sells*/
+.section-title{
+    font-size: 50px;
+    font-weight: 200;
+    position: relative;
+    padding: 20px 50px;
+}
+
+.section-title::before{
+    content:"";
+    position: absolute;
+    background-color: green;
+    width: 30px;
+    height: 5px;
+    bottom: 0;
+
+.best-items{
+    margin: 50px;
+}
+}
+.best-plans{
+
+    min-height:500px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.plans-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.no-grid{
+    min-width: 350px;
+    height:500px;
+    flex:1px;
+}
+.plan1{
+    background-image: url(../image/v1.jpg);
+}
+.plan2{
+    background-image: url(../image/v2.jpg);
+}
+.plan3{
+    background-image: url(../image/tete\ de\ lit.jpg);
+}
+.plan4{
+    background-image:url(../image/sac.PNG);
+}
+
+.maisonImg{
+    background-image: url(../image/maison.PNG);
+}
+.beauteImg{
+    background-image: url(../image/beuté.PNG);
+}
+.recyclageImg{
+    background-image: url(../image/recylage.PNG);
+}
+.mainImg{
+    background-image:url(../image/main.jpg);
+}
+
+.plan-détails{
+ position: absolute;
+ width: 100%;
+ bottom: 0;
+ background-color: rgb(241, 241, 241);
+ padding:10px 20px ;
+ 
+.plan-name{
+    font-size: 22px;
+    font: weight 600;
+    line-height:3px;
+
+}
+
+.plan-price{
+    color: rgb(70, 97, 70);
+    line-height: 10px;
+    font-size: 14px;
+    font-weight:800;
+}
+
+
